@@ -1,6 +1,6 @@
 SCRIPT_DIR=`dirname "$0"`
 SOURCE_DIR="./source"
-OUTPUT="output.gitignore"
+OUTPUT="../default.dcignore"
 REGEX="(^#.*)|((^|\/)\..*$)|(^.*\.[^\/]*$)"
 
 cd "$SCRIPT_DIR"
@@ -38,5 +38,6 @@ while read -r file; do
 	fi
 done <<< `find $SOURCE_DIR -name '*.gitignore'`
 
-echo "Parsing completed. Check '$SCRIPT_DIR/$OUTPUT' file for results."
+cd ..
+echo "Parsing completed. Check '`pwd`/`basename $OUTPUT`' file for results."
 exit 0

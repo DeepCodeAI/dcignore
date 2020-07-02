@@ -1,17 +1,7 @@
-# Manatee
-Manatee is an automatic .dcignore generator based on common .gitignore patterns found in https://github.com/github/gitignore
-
-It's [lazy and ugly](https://youtu.be/YXm1ICO8Nec), yet functional.
+# dcignore
+This repository offers a default implementation of the .dcignore file and an automatic generator based on common .gitignore patterns found in https://github.com/github/gitignore
 
 # Usage
-1. Run the script
-```bash
-  ./generate.sh
-```
-2. Read the results
-```bash
-  cat ./output.gitignore
-```
-3. ???
-4. PROFIT
+1. Clone this repository 
+2. Copy the `default.dcignore` file into the root of your project and rename it `.dcignore`
 
