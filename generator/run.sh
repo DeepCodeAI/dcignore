@@ -1,7 +1,7 @@
 SCRIPT_DIR=`dirname "$0"`
 SOURCE_DIR="./source"
 OUTPUT="../default.dcignore"
-REGEX="(^#.*)|((^|\/)\..*$)|(^.*\.[^\/]*$)"
+REGEX="(^#.*)|((^|\/)\..*$)|(^.*\.[^\/]*$)|(.*src.*)"
 
 cd "$SCRIPT_DIR"
 if [ -d $SOURCE_DIR ]; then
