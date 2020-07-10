@@ -1,0 +1,1 @@
+ export const DefaultDCIgnore: string;
