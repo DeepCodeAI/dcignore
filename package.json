@@ -1,18 +1,11 @@
 {
   "name": "@deepcode/dcignore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Default implementation of .dcignore file",
   "main": "index.js",
   "scripts": {
     "generate": "bash generator/run.sh"
   },
-  "files": [
-    "generator",
-    "full.dcignore",
-    "empty.dcignore",
-    "index.js",
-    "index.d.ts"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DeepCodeAI/dcignore.git"
