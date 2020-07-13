@@ -1,6 +1,7 @@
 SCRIPT_DIR=`dirname "$0"`
 SOURCE_DIR="./source"
-OUTPUT="../default.dcignore"
+EMPTY_OUTPUT="../empty.dcignore"
+FULL_OUTPUT="../full.dcignore"
 REGEX="(^#.*)|((^|\/)\..*$)|(^.*\.[^\/]*$)|(.*src.*)"
 
 cd "$SCRIPT_DIR"
@@ -12,8 +13,19 @@ else
 	git clone https://github.com/github/gitignore.git $SOURCE_DIR
 fi
 
-echo '# Hidden directories' > $OUTPUT
-echo '.*/' >> $OUTPUT
+TOP=(
+	"# Write glob rules for ignored files."
+	"# Check syntax on https://deepcode.freshdesk.com/support/solutions/articles/60000531055-how-can-i-ignore-files-or-directories-"
+	"# Check examples on https://github.com/github/gitignore"
+)
+for ELEMENT in "${TOP[@]}"; do
+	echo -e "$ELEMENT"
+done > "$EMPTY_OUTPUT"
+for ELEMENT in "${TOP[@]}"; do
+	echo -e "$ELEMENT"
+done > "$FULL_OUTPUT"
+
+echo -e "\n# Hidden directories\n.*/" >> "$FULL_OUTPUT"
 
 while read -r file; do
 	file_name=`basename $file`
@@ -27,17 +39,17 @@ while read -r file; do
 		fi
 	done <<< `cat "$file"`
 
-	# Debug log for checking number of rules per file.	
+	# Debug log for checking number of rules per file.
 	# echo "${file_name%.*} RULES: ${#rules[@]}"
 
 	if [ ${#rules[@]} -gt 0 ] ; then
-		echo -e "\n# ${file_name%.*}" >> $OUTPUT
+		echo -e "\n# ${file_name%.*}" >> $FULL_OUTPUT
 		for r in "${rules[@]}" ; do
-		   echo "$r" >> $OUTPUT
+		   echo "$r" >> $FULL_OUTPUT
 		done
 	fi
 done <<< `find $SOURCE_DIR -name '*.gitignore'`
 
 cd ..
-echo "Parsing completed. Check '`pwd`/`basename $OUTPUT`' file for results."
+echo "Parsing completed. Check '`pwd`/`basename $FULL_OUTPUT`' file for results."
 exit 0

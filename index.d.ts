@@ -1,1 +1,6 @@
- export const DefaultDCIgnore: string;
+export = defaultDCIgnore;
+
+declare const defaultDCIgnore: {
+    CustomDCIgnore: string;
+    DefaultDCIgnore: string;
+};

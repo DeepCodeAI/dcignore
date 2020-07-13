@@ -1,3 +1,8 @@
-import fs from 'fs'
-import path from "path";
-module.exports = fs.readFileSync(path.resolve(__dirname, 'default.dcignore'), 'utf8');
+const fs = require('fs');
+const path = require('path');
+const DefaultDCIgnore = fs.readFileSync(path.resolve(__dirname, 'full.dcignore'), 'utf8');
+const CustomDCIgnore = fs.readFileSync(path.resolve(__dirname, 'empty.dcignore'), 'utf8');
+module.exports = {
+  DefaultDCIgnore,
+  CustomDCIgnore
+};
