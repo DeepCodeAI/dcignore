@@ -1,3 +1,7 @@
+# Write glob rules for ignored files.
+# Check syntax on https://deepcode.freshdesk.com/support/solutions/articles/60000531055-how-can-i-ignore-files-or-directories-
+# Check examples on https://github.com/github/gitignore
+
 # Hidden directories
 .*/
 
@@ -207,6 +211,7 @@ public_html/hot
 *_cache/
 /cache/
 docs/
+po/*~
 
 # Processing
 applet
@@ -941,7 +946,8 @@ protected/runtime/*
 themes/classic/views/
 
 # Rust
-/target/
+debug/
+target/
 
 # Node
 logs
