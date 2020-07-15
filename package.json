@@ -1,6 +1,6 @@
 {
   "name": "@deepcode/dcignore",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Default implementation of .dcignore file",
   "main": "index.js",
   "scripts": {

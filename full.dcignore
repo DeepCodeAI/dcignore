@@ -183,7 +183,6 @@ source_gen
 test_gen
 
 # JENKINS_HOME
-/*
 !/jobs
 jobs/**
 !jobs/**/
