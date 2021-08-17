@@ -3,8 +3,8 @@ set -e
 
 SCRIPT_DIR=$(dirname "$0")
 SOURCE_DIR="./source"
-EMPTY_OUTPUT="../empty.dcignore"
-FULL_OUTPUT="../full.dcignore"
+EMPTY_OUTPUT="../empty.dcignore.js"
+FULL_OUTPUT="../full.dcignore.js"
 REGEX="(^#.*)|((^|\/)\..*$)|(^.*\.[^\/]*$)|(.*src.*)|(^\/\*$)"
 
 cd "$SCRIPT_DIR"
@@ -16,14 +16,17 @@ else
 	git clone https://github.com/github/gitignore.git $SOURCE_DIR
 fi
 
+# Wrap generated string in a JS export
 TOP=(
-	"# Write glob rules for ignored files."
+	"exports.file = \`# Write glob rules for ignored files."
 	"# Check syntax on https://deepcode.freshdesk.com/support/solutions/articles/60000531055-how-can-i-ignore-files-or-directories-"
 	"# Check examples on https://github.com/github/gitignore"
 )
 for ELEMENT in "${TOP[@]}"; do
 	echo -e "$ELEMENT"
 done > "$EMPTY_OUTPUT"
+echo -e "\`;" >> "$EMPTY_OUTPUT"
+
 for ELEMENT in "${TOP[@]}"; do
 	echo -e "$ELEMENT"
 done > "$FULL_OUTPUT"
@@ -52,6 +55,8 @@ find $SOURCE_DIR -name '*.gitignore' | while read file; do
 		done
 	fi
 done
+
+echo -e "\`;" >> "$FULL_OUTPUT"
 
 cd ..
 echo "Parsing completed. Check '$(pwd)/$(basename $FULL_OUTPUT)' file for results."

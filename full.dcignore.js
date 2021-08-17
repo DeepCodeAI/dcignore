@@ -1,4 +1,4 @@
-# Write glob rules for ignored files.
+exports.file = `# Write glob rules for ignored files.
 # Check syntax on https://deepcode.freshdesk.com/support/solutions/articles/60000531055-how-can-i-ignore-files-or-directories-
 # Check examples on https://github.com/github/gitignore
 
@@ -1597,3 +1597,4 @@ CATKIN_IGNORE
 _build
 _tracks
 opa-debug-js
+`;
