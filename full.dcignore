@@ -5,679 +5,8 @@
 # Hidden directories
 .*/
 
-# FuelPHP
-/fuel/vendor
-/docs/
-/fuel/app/logs/*/*/*
-/fuel/app/cache/*/*
-
-# Godot
-data_*/
-
-# Lilypond
-*~
-
-# Nim
-nimcache/
-nimblecache/
-htmldocs/
-
-# Android
-bin/
-gen/
-out/
-build/
-proguard/
-captures/
-freeline/
-fastlane/screenshots
-fastlane/test_output
-lint/intermediates/
-lint/generated/
-lint/outputs/
-lint/tmp/
-
-# UnrealEngine
-Binaries/*
-Plugins/*/Binaries/*
-Build/*
-!Build/*/
-Build/*/**
-Saved/*
-Intermediate/*
-Plugins/*/Intermediate/*
-DerivedDataCache/*
-
-# Zephir
-ext/build/
-ext/modules/
-ext/Makefile*
-ext/config*
-ext/autom4te*
-ext/install-sh
-ext/missing
-ext/mkinstalldirs
-ext/libtool
-
-# Typo3
-/fileadmin/user_upload/
-/fileadmin/_temp_/
-/fileadmin/_processed_/
-/uploads/
-/typo3conf/temp_CACHED*
-/typo3conf/ENABLE_INSTALL_TOOL
-/FIRST_INSTALL
-/typo3
-/Packages
-/typo3temp/
-
-# Actionscript
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# WordPress
-!wp-content/
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
-wp-content/themes/twenty*/
-node_modules/
-
-# Lithium
-libraries/*
-resources/tmp/*
-
-# Python
-__pycache__/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-MANIFEST
-htmlcov/
-cover/
-instance/
-docs/_build/
-target/
-profile_default/
-__pypackages__/
-celerybeat-schedule
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-/site
-cython_debug/
-
-# VVVV
-bin/
-
-# CodeIgniter
-*/config/development
-*/cache/*
-application/logs/*
-/vendor/
-
-# AppEngine
-appengine-generated/
-
-# Objective-C
-xcuserdata/
-build/
-DerivedData/
-Carthage/Build/
-fastlane/test_output
-iOSInjectionProject/
-
-# GWT
-war/gwt_bree/
-gwt-unitCache/
-war/WEB-INF/deploy/
-war/WEB-INF/classes/
-www-test/
-
-# Delphi
-__history/
-__recovery/
-modules/
-
-# ROS
-devel/
-logs/
-build/
-bin/
-lib/
-msg_gen/
-srv_gen/
-build_isolated/
-devel_isolated/
-/cfg/cpp/
-qtcreator-*
-/planning/cfg
-/planning/docs
-*~
-CATKIN_IGNORE
-
-# Stella
-obj/
-
-# Jekyll
-_site/
-
-# MetaProgrammingSystem
-classes_gen
-source_gen
-test_gen
-
-# JENKINS_HOME
-!/jobs
-jobs/**
-!jobs/**/
-builds
-indexing
-jobs/**/*workspace
-
-# Leiningen
-/lib/
-/classes/
-/target/
-/checkouts/
-
-# Laravel
-/vendor/
-node_modules/
-app/storage/
-public/storage
-public/hot
-public_html/storage
-public_html/hot
-
-# R
-/*.Rcheck/
-*_cache/
-/cache/
-docs/
-po/*~
-
-# Processing
-applet
-out
-
-# GitBook
-node_modules
-_book
-
-# LemonStand
-/config/*
-/controllers/*
-/init/*
-/logs/*
-/phproad/*
-/temp/*
-/uploaded/*
-/installer_files/*
-/modules/backend/*
-/modules/blog/*
-/modules/cms/*
-/modules/core/*
-/modules/session/*
-/modules/shop/*
-/modules/system/*
-/modules/users/*
-
-# ArchLinuxPackages
-pkg/
-
-# Swift
-xcuserdata/
-build/
-DerivedData/
-Carthage/Build/
-Dependencies/
-fastlane/test_output
-iOSInjectionProject/
-
-# Packer
-packer_cache/
-
-# Elixir
-/_build
-/cover
-/deps
-/doc
-
-# Phalcon
-/cache/
-/config/development/
-
-# Unity
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-/[Mm]emoryCaptures/
-/[Aa]ssets/Plugins/Editor/JetBrains*
-ExportedObj/
-/[Aa]ssets/[Ss]treamingAssets/aa/*
-
-# Scrivener
-*/QuickLook/
-
-# Kohana
-application/cache/*
-application/logs/*
-
-# Prestashop
-/cache/*
-!/cache/push/activity
-!/cache/push/trends
-/download/*
-/img/*
-!/img/jquery-ui
-!/img/scenes
-/upload/*
-/vendor/*
-/docs/phpdoc-sf/
-/admin-dev/autoupgrade/*
-/admin-dev/backups/*
-/admin-dev/import/*
-/admin-dev/export/*
-themes/*/cache/*
-config/xml/*
-config/themes/*
-modules/*
-override/*
-themes/*/
-!themes/classic
-!themes/_core
-!themes/_libraries
-bower_components/
-node_modules/
-php-cs-fixer
-translations/*
-mails/*
-!mails/themes/
-!mails/_partials/
-themes/default-bootstrap/lang/*
-themes/default-bootstrap/mails/*
-!themes/default-bootstrap/mails/en/
-themes/default-bootstrap/modules/*/mails/*
-!themes/default-bootstrap/modules/*/mails/en
-/bin/
-/app/Resources/translations/*
-!/app/Resources/translations/default
-/build/
-/var/*
-!/var/cache
-/var/cache/*
-!/var/logs
-/var/logs/*
-!/var/sessions
-/var/sessions/*
-/vendor/
-/web/bundles/
-
-# ExtJs
-build/
-ext/
-
-# CMake
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-_deps
-
-# Umbraco
-**/App_Data/Logs/
-**/App_Data/[Pp]review/
-**/App_Data/TEMP/
-**/App_Data/NuGetBackup/
-!**/App_Data/[Pp]ackages/*
-!**/[Uu]mbraco/[Dd]eveloper/[Pp]ackages/*
-!**/[Uu]mbraco/[Vv]iews/[Pp]ackages/*
-**/App_Data/cache/
-
-# CakePHP
-/vendor/*
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
-/logs/*
-!/logs/empty
-/app/tmp/*
-/vendors/*
-
-# Java
+# Scala
 hs_err_pid*
-
-# Symfony
-/app/cache/*
-/app/logs/*
-/app/spool/*
-/var/cache/*
-/var/logs/*
-/var/sessions/*
-/var/log/*
-/bin/*
-!bin/console
-!bin/symfony_requirements
-/vendor/
-/web/bundles/
-/web/uploads/
-/build/
-**/Entity/*~
-
-# Composer
-/vendor/
-
-# SymphonyCMS
-manifest/cache/
-manifest/logs/
-manifest/tmp/
-symphony/
-workspace/uploads/
-
-# JBoss6
-/server/all/data
-/server/all/log
-/server/all/tmp
-/server/all/work
-/server/default/data
-/server/default/log
-/server/default/tmp
-/server/default/work
-/server/minimal/data
-/server/minimal/log
-/server/minimal/tmp
-/server/minimal/work
-/server/jbossweb-standalone/data
-/server/jbossweb-standalone/log
-/server/jbossweb-standalone/tmp
-/server/jbossweb-standalone/work
-/server/standard/data
-/server/standard/log
-/server/standard/tmp
-/server/standard/work
-
-# JBoss4
-/server/all/data
-/server/all/log
-/server/all/tmp
-/server/all/work
-/server/default/data
-/server/default/log
-/server/default/tmp
-/server/default/work
-/server/minimal/data
-/server/minimal/log
-/server/minimal/tmp
-/server/minimal/work
-
-# Red
-quick-test/runnable/
-system/tests/source/units/auto-tests/
-tests/source/units/auto-tests/
-
-# Snap
-parts/
-prime/
-stage/
-
-# Splunk
-local
-
-# Hugo
-/public/
-/resources/_gen/
-
-# Bazel
-/bazel-*
-
-# Nikola
-cache/
-output/
-
-# JupyterNotebooks
-profile_default/
-
-# Puppet
-pkg/*
-spec/fixtures/*
-coverage/*
-vendor/*
-
-# Racket
-compiled/
-
-# Phoenix
-/tmp
-/node_modules
-/assets/node_modules
-/priv/static/
-/installer/_build
-/installer/tmp
-/installer/doc
-/installer/deps
-
-# Logtalk
-lgt_tmp/
-logtalk_tester_logs/
-logtalk_doclet_logs/
-
-# NWjs
-locales/
-pnacl/
-
-# Cordova
-/platforms
-
-# Vue
-docs/_book
-test/
-
-# Kentico
-!CMS/CMSAdminControls/*/
-!CMS/CMSModules/System/*/
-!CMS/App_Data/CIRepository/**
-CMS/App_Data/AzureCache
-CMS/App_Data/AzureTemp
-CMS/App_Data/CMSTemp
-CMS/App_Data/Persistent
-CMS/CMSSiteUtils/Export
-CMS/CMSSiteUtils/Import
-CMS/App_Data/CMSModules/SmartSearch/**
-!CMS/App_Data/CMSModules/SmartSearch/*/
-!CMS/App_Data/CMSModules/SmartSearch/_StopWords/**
-!CMS/App_Data/CMSModules/SmartSearch/_Synonyms/**
-CMS/App_Data/DancingGoat
-CMS/App_Data/Templates/CommunitySite
-CMS/App_Data/Templates/CorporateSite
-CMS/App_Data/Templates/DancingGoat
-CMS/App_Data/Templates/EcommerceSite
-CMS/App_Data/Templates/IntranetPortal
-CMS/App_Data/Templates/PersonalSite
-CMS/App_Themes/CommunitySite
-CMS/App_Themes/CorporateSite
-CMS/App_Themes/EcommerceSite
-CMS/App_Themes/IntranetPortal*
-CMS/App_Themes/PersonalSite
-CMS/CMSTemplates/CorporateSite
-CMS/CommunitySite
-CMS/CorporateSite
-CMS/DancingGoat
-CMS/EcommerceSite
-CMS/IntranetPortal
-CMS/PersonalSite
-
-# InforCMS
-[Mm]odel/[Dd]eployment
-!Model/Portal/*/SupportFiles/[Bb]in/
-!Model/Portal/PortalTemplates/*/SupportFiles/[Bb]in
-
-# Xilinx
-*_synth_*
-*/*/bd/*/hdl
-*/*/*/bd/*/hdl
-*/*/bd/*/ip/*/*/
-*/*/*/bd/*/ip/*/*/
-hw_handoff
-ipshared
-
-# Pimcore
-/pimcore
-/website/var/assets/*
-/website/var/backup/*
-/website/var/cache/*
-/website/var/classes/Object*
-!/website/var/classes/objectbricks
-/website/var/config/Geo*
-/website/var/config/object/*
-/website/var/config/portal/*
-/website/var/config/sqlreport/*
-/website/var/email/*
-/website/var/recyclebin/*
-/website/var/search/*
-/website/var/system/*
-/website/var/tmp/*
-/website/var/versions/asset/*
-/website/var/versions/document/*
-/website/var/versions/object/*
-/website/var/user-image/*
-
-# Magento2
-/sitemap
-/pub/sitemap
-/app/config_sandbox
-/app/code/Magento/TestModule*
-/pub/media/attribute/*
-/pub/media/analytics/*
-/pub/media/catalog/*
-/pub/media/customer/*
-/pub/media/downloadable/*
-/pub/media/favicon/*
-/pub/media/import/*
-/pub/media/logo/*
-/pub/media/theme/*
-/pub/media/theme_customization/*
-/pub/media/wysiwyg/*
-/pub/media/tmp/*
-/pub/media/captcha/*
-/pub/static/*
-/var/*
-/vendor/*
-/generated/*
-
-# Bitrix
-/bitrix/*
-!/bitrix/templates
-!/bitrix/components
-/bitrix/components/bitrix
-!/bitrix/gadgets
-/bitrix/gadgets/bitrix
-!/bitrix/php_interface/
-/upload/
-
-# Drupal7
-files/
-sites/*/files
-sites/*/private
-sites/*/translations
-/includes
-/misc
-/modules
-/profiles
-/scripts
-/themes
-
-# CodeSniffer
-/wpcs/*
-
-# Jigsaw
-build_*
-
-# Magento1
-/media/*
-!/media/customer
-/media/customer/*
-!/media/dhl
-/media/dhl/*
-!/media/downloadable
-/media/downloadable/*
-!/media/xmlconnect
-/media/xmlconnect/*
-!/media/xmlconnect/custom
-/media/xmlconnect/custom/*
-!/media/xmlconnect/original
-/media/xmlconnect/original/*
-!/media/xmlconnect/system
-/media/xmlconnect/system/*
-/var/*
-!/var/package
-/var/package/*
-
-# ThinkPHP
-/Application/Runtime/
-
-# AtmelStudio
-[Dd]ebug/
-[Rr]elease/
-
-# IAR_EWARM
-EWARM/**/Obj
-EWARM/**/List
-EWARM/**/Exe
-EWARM/settings
-
-# esp-idf
-build/
-sdkconfig
-
-# Concrete5
-error_log
-files/cache/*
-files/tmp/*
-/application/files/*
-/updates/*
-
-# Drupal
-/sites/*/files
-/sites/*/public
-/sites/*/private
-/sites/*/files-public
-/sites/*/files-private
-/sites/*/translations
-/sites/*/tmp
-/sites/*/cache
-/sites/simpletest
-/core
-/vendor
-
-# Mercury
-Mercury/
 
 # Joomla
 /administrator/cache/*
@@ -939,54 +268,28 @@ Mercury/
 /templates/system/*
 /tmp/*
 
-# Yii
-assets/*
-protected/runtime/*
-themes/classic/views/
+# CakePHP
+/vendor/*
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+/tmp/sessions/*
+!/tmp/sessions/empty
+/tmp/tests/*
+!/tmp/tests/empty
+/logs/*
+!/logs/empty
+/app/tmp/*
+/vendors/*
 
-# Rust
-debug/
-target/
-
-# Node
-logs
-pids
-lib-cov
-coverage
-bower_components
-build/Release
+# Yeoman
 node_modules/
-jspm_packages/
-web_modules/
-out
-dist
-
-# PureScript
-bower_components
-node_modules
-output
-
-# JBoss
-jboss/server/all/tmp/**/*
-jboss/server/all/data/**/*
-jboss/server/all/work/**/*
-jboss/server/default/tmp/**/*
-jboss/server/default/data/**/*
-jboss/server/default/work/**/*
-jboss/server/minimal/tmp/**/*
-jboss/server/minimal/data/**/*
-jboss/server/minimal/work/**/*
-
-# Grails
-/web-app/WEB-INF/classes
-/test/reports
-/logs
-/plugins
-/web-app/plugins
-/target
-
-# C
-*.dSYM/
+bower_components/
+build/
+dist/
 
 # ZendFramework
 vendor/
@@ -999,6 +302,132 @@ data/DoctrineORMModule/Proxy/
 data/DoctrineORMModule/cache/
 demos/
 extras/documentation
+
+# KiCad
+*~
+_autosave-*
+fp-info-cache
+
+# Textpattern
+rpc/
+sites/site*/admin/
+sites/site*/private/
+sites/site*/public/admin/
+sites/site*/public/setup/
+sites/site*/public/theme/
+textpattern/
+
+# ExpressionEngine
+images/avatars/
+images/captchas/
+images/smileys/
+images/member_photos/
+images/signature_attachments/
+images/pm_attachments/
+sized/
+thumbs/
+_thumbs/
+*/expressionengine/cache/*
+
+# Typo3
+/fileadmin/user_upload/
+/fileadmin/_temp_/
+/fileadmin/_processed_/
+/uploads/
+/typo3conf/temp_CACHED*
+/typo3conf/ENABLE_INSTALL_TOOL
+/FIRST_INSTALL
+/typo3
+/Packages
+/typo3temp/
+
+# Packer
+packer_cache/
+
+# Elisp
+*~
+
+# Haskell
+dist
+dist-*
+cabal-dev
+
+# GWT
+war/gwt_bree/
+gwt-unitCache/
+war/WEB-INF/deploy/
+war/WEB-INF/classes/
+www-test/
+
+# Objective-C
+xcuserdata/
+build/
+DerivedData/
+Carthage/Build/
+fastlane/test_output
+iOSInjectionProject/
+
+# Composer
+/vendor/
+
+# Android
+bin/
+gen/
+out/
+build/
+proguard/
+captures/
+freeline/
+fastlane/screenshots
+fastlane/test_output
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# Symfony
+/app/cache/*
+/app/logs/*
+/app/spool/*
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+/var/log/*
+/bin/*
+!bin/console
+!bin/symfony_requirements
+/vendor/
+/web/bundles/
+/web/uploads/
+/build/
+**/Entity/*~
+
+# ExtJs
+build/
+ext/
+
+# Erlang
+rel/example_project
+deps
+_build/
+_checkouts/
+
+# Scrivener
+*/QuickLook/
+
+# Qooxdoo
+cache
+cache-downloads
+inspector
+api
+
+# RhodesRhomobile
+rholog-*
+sim-*
+bin/libs
+bin/RhoBundle
+bin/tmp
+bin/target
 
 # PlayFramework
 bin/
@@ -1013,6 +442,9 @@ tmp/
 test-result
 /dist/
 
+# Stella
+obj/
+
 # SugarCRM
 /cache/*
 /custom/history/
@@ -1023,36 +455,45 @@ test-result
 /upload/*
 /upload_backup/
 
-# ExpressionEngine
-images/avatars/
-images/captchas/
-images/smileys/
-images/member_photos/
-images/signature_attachments/
-images/pm_attachments/
-sized/
-thumbs/
-_thumbs/
-*/expressionengine/cache/*
+# Delphi
+__history/
+__recovery/
+modules/
 
-# KiCad
-*~
-_autosave-*
-fp-info-cache
+# TurboGears2
+data/*
+dist
+build
 
-# Plone
-bin/
+# Waf
+waf-*-*/
+waf3-*-*/
+
+# Leiningen
+/lib/
+/classes/
+/target/
+/checkouts/
+
+# Dart
 build/
-develop-eggs/
-downloads/
-eggs/
-fake-eggs/
-parts/
-dist/
-var/
+doc/api/
 
-# D
+# R
+/*.Rcheck/
+*_cache/
+/cache/
 docs/
+po/*~
+
+# ChefCookbook
+/cookbooks
+bin/*
+
+# MetaProgrammingSystem
+classes_gen
+source_gen
+test_gen
 
 # CFWheels
 plugins/**/*
@@ -1061,21 +502,218 @@ db/sql
 javascripts/bundles
 stylesheets/bundles
 
-# Yeoman
+# Lilypond
+*~
+
+# JENKINS_HOME
+!/jobs
+jobs/**
+!jobs/**/
+builds
+indexing
+jobs/**/*workspace
+
+# Processing
+applet
+out
+
+# Kohana
+application/cache/*
+application/logs/*
+
+# Clojure
+/lib/
+/classes/
+/target/
+/checkouts/
+
+# GitBook
+node_modules
+_book
+
+# Lithium
+libraries/*
+resources/tmp/*
+
+# Magento
+/media/*
+!/media/customer
+/media/customer/*
+!/media/dhl
+/media/dhl/*
+!/media/downloadable
+/media/downloadable/*
+!/media/xmlconnect
+/media/xmlconnect/*
+!/media/xmlconnect/custom
+/media/xmlconnect/custom/*
+!/media/xmlconnect/original
+/media/xmlconnect/original/*
+!/media/xmlconnect/system
+/media/xmlconnect/system/*
+/var/*
+!/var/package
+/var/package/*
+
+# Node
+logs
+pids
+lib-cov
+coverage
+bower_components
+build/Release
 node_modules/
-bower_components/
+jspm_packages/
+web_modules/
+out
+dist
+
+# Python
+__pycache__/
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+MANIFEST
+htmlcov/
+cover/
+instance/
+docs/_build/
+target/
+profile_default/
+__pypackages__/
+celerybeat-schedule
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+/site
+cython_debug/
+
+# Nim
+nimcache/
+nimblecache/
+htmldocs/
+
+# Yii
+assets/*
+protected/runtime/*
+themes/classic/views/
 
 # Nanoc
 output/
 tmp/nanoc/
 
-# Erlang
-rel/example_project
-deps
+# Umbraco
+**/App_Data/Logs/
+**/App_Data/[Pp]review/
+**/App_Data/TEMP/
+**/App_Data/NuGetBackup/
+!**/App_Data/[Pp]ackages/*
+!**/[Uu]mbraco/[Dd]eveloper/[Pp]ackages/*
+!**/[Uu]mbraco/[Vv]iews/[Pp]ackages/*
+**/App_Data/cache/
+
+# Java
+hs_err_pid*
+
+# Elixir
+/_build
+/cover
+/deps
+/doc
+
+# WordPress
+!wp-content/
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+wp-content/themes/twenty*/
+node_modules/
+
+# Godot
+data_*/
+
+# Xojo
+Builds*
+Debug*/Debug*\ Libs
+
+# ArchLinuxPackages
+pkg/
+
+# Jekyll
+_site/
+
+# D
+docs/
+
+# Elm
+elm-stuff
+repl-temp-*
+
+# Actionscript
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Swift
+xcuserdata/
+build/
+DerivedData/
+Carthage/Build/
+Dependencies/
+fastlane/test_output
+iOSInjectionProject/
+
+# Grails
+/web-app/WEB-INF/classes
+/test/reports
+/logs
+/plugins
+/web-app/plugins
+/target
+
+# Laravel
+/vendor/
+node_modules/
+app/storage/
+public/storage
+public/hot
+public_html/storage
+public_html/hot
+
+# Perl
+!Build/
+cover_db/
 _build/
-_checkouts/
+Build
+inc/
+/blib/
+/_eumm/
+/Makefile
+/pm_to_blib
+
+# CMake
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+_deps
+
+# VVVV
+bin/
 
 # VisualStudio
 [Dd]ebug/
@@ -1140,42 +778,80 @@ ASALocalRun/
 healthchecksdb
 MigrationBackup/
 
-# Perl
-!Build/
-cover_db/
-_build/
-Build
-inc/
-/blib/
-/_eumm/
-/Makefile
-/pm_to_blib
+# CraftCMS
+/craft/storage/*
+!/craft/storage/rebrand
 
-# OCaml
-_build/
-_opam/
+# TwinCAT3
+_Boot/
+_CompileInfo/
+_Libraries/
 
-# Agda
-MAlonzo/**
+# Rust
+debug/
+target/
 
-# Clojure
-/lib/
-/classes/
-/target/
-/checkouts/
+# Drupal
+/sites/*/files
+/sites/*/public
+/sites/*/private
+/sites/*/files-public
+/sites/*/files-private
+/sites/*/translations
+/sites/*/tmp
+/sites/*/cache
+/sites/simpletest
+/core
+/vendor
 
-# OpenCart
-download/
-image/data/
-image/cache/
-system/cache/
-system/logs/
-system/storage/
-vqmod/logs/*
-vqmod/vqcache/*
+# Plone
+bin/
+build/
+develop-eggs/
+downloads/
+eggs/
+fake-eggs/
+parts/
+dist/
+var/
 
-# Kotlin
-hs_err_pid*
+# AppEngine
+appengine-generated/
+
+# Mercury
+Mercury/
+
+# JBoss
+jboss/server/all/tmp/**/*
+jboss/server/all/data/**/*
+jboss/server/all/work/**/*
+jboss/server/default/tmp/**/*
+jboss/server/default/data/**/*
+jboss/server/default/work/**/*
+jboss/server/minimal/tmp/**/*
+jboss/server/minimal/data/**/*
+jboss/server/minimal/work/**/*
+
+# PureScript
+bower_components
+node_modules
+output
+
+# AppceleratorTitanium
+build/
+
+# Concrete5
+error_log
+files/cache/*
+files/tmp/*
+/application/files/*
+/updates/*
+
+# CodeIgniter
+*/config/development
+*/cache/*
+application/logs/*
+/vendor/
 
 # Julia
 deps/downloads/
@@ -1183,198 +859,8 @@ deps/usr/
 docs/build/
 docs/site/
 
-# Opa
-_build
-_tracks
-opa-debug-js
-
-# Windows
-$RECYCLE.BIN/
-
-# MonoDevelop
-test-results/
-
-# JDeveloper
-temp/
-classes/
-deploy/
-javadoc/
-
-# CodeKit
-/min
-
-# VirtualEnv
-[Bb]in
-[Ii]nclude
-[Ll]ib
-[Ll]ib64
-[Ll]ocal
-[Ss]cripts
-
-# Tags
-TAGS
-!TAGS/
-tags
-!tags/
-GTAGS
-GRTAGS
-GPATH
-GSYMS
-
-# Virtuoso
-lvsRunDir/*
-drcRunDir/*
-
-# PSoCCreator
-Debug/
-Release/
-Export/
-*/codegentemp
-*/Generated_Source
-
-# Calabash
-rerun/
-reports/
-screenshots/
-test-servers/
-vendor
-
-# TextMate
-tmtags
-
-# Lazarus
-backup/
-lib/
-*.app/
-
-# macOS
-Icon
-Network Trash Folder
-Temporary Items
-
-# EiffelStudio
-EIFGENs
-
-# MATLAB
-helpsearch*/
-slprj/
-sccprj/
-codegen/
-octave-workspace
-
-# FlexBuilder
-bin/
-bin-debug/
-bin-release/
-
-# Eclipse
-bin/
-tmp/
-
-# Vim
-*~
-tags
-
-# SynopsysVCS
-simv
-simv.daidir/
-simv.db.dir/
-simv.vdb/
-urgReport/
-DVEfiles/
-
-# Emacs
-*~
-\#*\#
-auto-save-list
-tramp
-*_archive
-/eshell/history
-/eshell/lastdir
-/elpa/
-/auto/
-dist/
-/server/
-
-# Momentics
-x86/
-arm/
-arm-p/
-
-# Linux
-*~
-
-# SublimeText
-Package Control.cache/
-Package Control.ca-certs/
-
-# CVS
-/CVS/*
-**/CVS/*
-
-# Dreamweaver
-_notes
-_compareTemp
-configs/
-
-# Xcode
-xcuserdata/
-build/
-DerivedData/
-
-# WebMethods
-**/IntegrationServer/datastore/
-**/IntegrationServer/db/
-**/IntegrationServer/DocumentStore/
-**/IntegrationServer/lib/
-**/IntegrationServer/logs/
-**/IntegrationServer/replicate/
-**/IntegrationServer/sdk/
-**/IntegrationServer/support/
-**/IntegrationServer/update/
-**/IntegrationServer/userFtpRoot/
-**/IntegrationServer/web/
-**/IntegrationServer/WmRepository4/
-**/IntegrationServer/XAStore/
-**/IntegrationServer/packages/Wm*/
-
-# ModelSim
-[_@]*
-wlf*
-cov*/
-transcript*
-
-# NetBeans
-**/nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-
-# JetBrains
-cmake-build-*/
-out/
-
-# Octave
-helpsearch*/
-slprj/
-sccprj/
-codegen/
-octave-workspace
-
-# SBT
-dist/*
-target/
-lib_managed/
-project/boot/
-project/plugins/project/
-
-# XilinxISE
-iseconfig/
-xlnx_auto_0_xdb/
-xst/
-_ngo/
-_xmsgs/
+# ForceDotCom
+Referenced Packages
 
 # Smalltalk
 /package-cache
@@ -1382,7 +868,323 @@ _xmsgs/
 /play-stash
 /github-cache
 
-# Magento
+# Rails
+/public/system
+/coverage/
+/spec/tmp
+/log/*
+/tmp/*
+/vendor/bundle
+/vendor/assets/bower_components
+node_modules/
+/public/packs
+/public/packs-test
+/public/assets
+/storage/*
+/public/uploads
+
+# Phalcon
+/cache/
+/config/development/
+
+# Prestashop
+/cache/*
+!/cache/push/activity
+!/cache/push/trends
+/download/*
+/img/*
+!/img/jquery-ui
+!/img/scenes
+/upload/*
+/vendor/*
+/docs/phpdoc-sf/
+/admin-dev/autoupgrade/*
+/admin-dev/backups/*
+/admin-dev/import/*
+/admin-dev/export/*
+themes/*/cache/*
+config/xml/*
+config/themes/*
+modules/*
+override/*
+themes/*/
+!themes/classic
+!themes/_core
+!themes/_libraries
+bower_components/
+node_modules/
+php-cs-fixer
+translations/*
+mails/*
+!mails/themes/
+!mails/_partials/
+themes/default-bootstrap/lang/*
+themes/default-bootstrap/mails/*
+!themes/default-bootstrap/mails/en/
+themes/default-bootstrap/modules/*/mails/*
+!themes/default-bootstrap/modules/*/mails/en
+/bin/
+/app/Resources/translations/*
+!/app/Resources/translations/default
+/build/
+/var/*
+!/var/cache
+/var/cache/*
+!/var/logs
+/var/logs/*
+!/var/sessions
+/var/sessions/*
+/vendor/
+/web/bundles/
+
+# Agda
+MAlonzo/**
+
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Aa]ssets/Plugins/Editor/JetBrains*
+ExportedObj/
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# FuelPHP
+/fuel/vendor
+/docs/
+/fuel/app/logs/*/*/*
+/fuel/app/cache/*/*
+
+# LemonStand
+/config/*
+/controllers/*
+/init/*
+/logs/*
+/phproad/*
+/temp/*
+/uploaded/*
+/installer_files/*
+/modules/backend/*
+/modules/blog/*
+/modules/cms/*
+/modules/core/*
+/modules/session/*
+/modules/shop/*
+/modules/system/*
+/modules/users/*
+
+# SeamGen
+/bootstrap/data
+/bootstrap/tmp
+/classes/
+/dist/
+/exploded-archives/
+/test-build/
+/test-output/
+/test-report/
+/target/
+
+# SymphonyCMS
+manifest/cache/
+manifest/logs/
+manifest/tmp/
+symphony/
+workspace/uploads/
+
+# Gradle
+**/build/
+
+# Maven
+target/
+
+# Ruby
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+build/
+build-iPhoneOS/
+build-iPhoneSimulator/
+/_yardoc/
+/doc/
+/rdoc/
+/vendor/bundle
+/lib/bundler/man/
+
+# Puppet
+pkg/*
+spec/fixtures/*
+coverage/*
+vendor/*
+
+# AltiumDesigner
+History
+__Previews
+Project\ Logs*
+Project\ Outputs*
+
+# Red
+quick-test/runnable/
+system/tests/source/units/auto-tests/
+tests/source/units/auto-tests/
+
+# SPFx
+logs
+node_modules
+dist
+lib
+solution
+temp
+coverage
+bin
+obj
+
+# ROS2
+install/
+log/
+build/
+qtcreator-*
+*~
+COLCON_IGNORE
+AMENT_IGNORE
+
+# Nikola
+cache/
+output/
+
+# JupyterNotebooks
+profile_default/
+
+# Phoenix
+/tmp
+/node_modules
+/assets/node_modules
+/priv/static/
+/installer/_build
+/installer/tmp
+/installer/doc
+/installer/deps
+
+# Racket
+compiled/
+
+# Hugo
+/public/
+/resources/_gen/
+
+# Xilinx
+*_synth_*
+*/*/bd/*/hdl
+*/*/*/bd/*/hdl
+*/*/bd/*/ip/*/*/
+*/*/*/bd/*/ip/*/*/
+hw_handoff
+ipshared
+
+# JBoss6
+/server/all/data
+/server/all/log
+/server/all/tmp
+/server/all/work
+/server/default/data
+/server/default/log
+/server/default/tmp
+/server/default/work
+/server/minimal/data
+/server/minimal/log
+/server/minimal/tmp
+/server/minimal/work
+/server/jbossweb-standalone/data
+/server/jbossweb-standalone/log
+/server/jbossweb-standalone/tmp
+/server/jbossweb-standalone/work
+/server/standard/data
+/server/standard/log
+/server/standard/tmp
+/server/standard/work
+
+# JBoss4
+/server/all/data
+/server/all/log
+/server/all/tmp
+/server/all/work
+/server/default/data
+/server/default/log
+/server/default/tmp
+/server/default/work
+/server/minimal/data
+/server/minimal/log
+/server/minimal/tmp
+/server/minimal/work
+
+# Jigsaw
+build_*
+
+# Pimcore
+/pimcore
+/website/var/assets/*
+/website/var/backup/*
+/website/var/cache/*
+/website/var/classes/Object*
+!/website/var/classes/objectbricks
+/website/var/config/Geo*
+/website/var/config/object/*
+/website/var/config/portal/*
+/website/var/config/sqlreport/*
+/website/var/email/*
+/website/var/recyclebin/*
+/website/var/search/*
+/website/var/system/*
+/website/var/tmp/*
+/website/var/versions/asset/*
+/website/var/versions/document/*
+/website/var/versions/object/*
+/website/var/user-image/*
+
+# ThinkPHP
+/Application/Runtime/
+
+# Magento2
+/sitemap
+/pub/sitemap
+/app/config_sandbox
+/app/code/Magento/TestModule*
+/pub/media/attribute/*
+/pub/media/analytics/*
+/pub/media/catalog/*
+/pub/media/customer/*
+/pub/media/downloadable/*
+/pub/media/favicon/*
+/pub/media/import/*
+/pub/media/logo/*
+/pub/media/theme/*
+/pub/media/theme_customization/*
+/pub/media/wysiwyg/*
+/pub/media/tmp/*
+/pub/media/captcha/*
+/pub/static/*
+/var/*
+/vendor/*
+/generated/*
+
+# Bitrix
+/bitrix/*
+!/bitrix/templates
+!/bitrix/components
+/bitrix/components/bitrix
+!/bitrix/gadgets
+/bitrix/gadgets/bitrix
+!/bitrix/php_interface/
+/upload/
+
+# Magento1
 /media/*
 !/media/customer
 /media/customer/*
@@ -1402,14 +1204,129 @@ _xmsgs/
 !/var/package
 /var/package/*
 
-# TurboGears2
-data/*
-dist
-build
+# Drupal7
+files/
+sites/*/files
+sites/*/private
+sites/*/translations
+/includes
+/misc
+/modules
+/profiles
+/scripts
+/themes
 
-# ChefCookbook
-/cookbooks
-bin/*
+# CodeSniffer
+/wpcs/*
+
+# Kentico
+!CMS/CMSAdminControls/*/
+!CMS/CMSModules/System/*/
+!CMS/App_Data/CIRepository/**
+CMS/App_Data/AzureCache
+CMS/App_Data/AzureTemp
+CMS/App_Data/CMSTemp
+CMS/App_Data/Persistent
+CMS/CMSSiteUtils/Export
+CMS/CMSSiteUtils/Import
+CMS/App_Data/CMSModules/SmartSearch/**
+!CMS/App_Data/CMSModules/SmartSearch/*/
+!CMS/App_Data/CMSModules/SmartSearch/_StopWords/**
+!CMS/App_Data/CMSModules/SmartSearch/_Synonyms/**
+CMS/App_Data/DancingGoat
+CMS/App_Data/Templates/CommunitySite
+CMS/App_Data/Templates/CorporateSite
+CMS/App_Data/Templates/DancingGoat
+CMS/App_Data/Templates/EcommerceSite
+CMS/App_Data/Templates/IntranetPortal
+CMS/App_Data/Templates/PersonalSite
+CMS/App_Themes/CommunitySite
+CMS/App_Themes/CorporateSite
+CMS/App_Themes/EcommerceSite
+CMS/App_Themes/IntranetPortal*
+CMS/App_Themes/PersonalSite
+CMS/CMSTemplates/CorporateSite
+CMS/CommunitySite
+CMS/CorporateSite
+CMS/DancingGoat
+CMS/EcommerceSite
+CMS/IntranetPortal
+CMS/PersonalSite
+
+# InforCMS
+[Mm]odel/[Dd]eployment
+!Model/Portal/*/SupportFiles/[Bb]in/
+!Model/Portal/PortalTemplates/*/SupportFiles/[Bb]in
+
+# Strapi
+Icon
+*~
+$RECYCLE.BIN/
+*#
+nbproject
+lib-cov
+pids
+logs
+results
+build
+node_modules
+testApp
+coverage
+cypress/screenshots
+cypress/videos
+dist
+packages/strapi-generate-new/files/public/
+
+# Logtalk
+lgt_tmp/
+logtalk_tester_logs/
+logtalk_doclet_logs/
+
+# Snap
+parts/
+prime/
+stage/
+
+# Cordova
+/platforms
+
+# Vue
+docs/_book
+test/
+
+# NWjs
+locales/
+pnacl/
+
+# Bazel
+/bazel-*
+
+# IAR_EWARM
+EWARM/**/Obj
+EWARM/**/List
+EWARM/**/Exe
+EWARM/settings
+
+# esp-idf
+build/
+sdkconfig
+
+# AtmelStudio
+[Dd]ebug/
+[Rr]elease/
+
+# Splunk
+local
+
+# OpenCart
+download/
+image/data/
+image/cache/
+system/cache/
+system/logs/
+system/storage/
+vqmod/logs/*
+vqmod/vqcache/*
 
 # TeX
 latex.out/
@@ -1421,50 +1338,219 @@ pythontex-files-*/
 TSWLatexianTemp*
 *~[0-9]*
 
-# Rails
-/public/system
-/coverage/
-/spec/tmp
-/log/*
-/tmp/*
-/vendor/bundle
-/vendor/assets/bower_components
-node_modules/
-/public/packs
-/public/packs-test
-/public/assets
-/storage/*
-/public/uploads
+# Zephir
+ext/build/
+ext/modules/
+ext/Makefile*
+ext/config*
+ext/autom4te*
+ext/install-sh
+ext/missing
+ext/mkinstalldirs
+ext/libtool
 
-# Dart
+# OCaml
+_build/
+_opam/
+
+# Octave
+helpsearch*/
+slprj/
+sccprj/
+codegen/
+octave-workspace
+
+# Calabash
+rerun/
+reports/
+screenshots/
+test-servers/
+vendor
+
+# Lazarus
+backup/
+lib/
+*.app/
+
+# macOS
+Icon
+Network Trash Folder
+Temporary Items
+
+# CodeKit
+/min
+
+# EiffelStudio
+EIFGENs
+
+# SBT
+dist/*
+target/
+lib_managed/
+project/boot/
+project/plugins/project/
+
+# ModelSim
+[_@]*
+wlf*
+cov*/
+transcript*
+
+# CVS
+/CVS/*
+**/CVS/*
+
+# Tags
+TAGS
+!TAGS/
+tags
+!tags/
+GTAGS
+GRTAGS
+GPATH
+GSYMS
+
+# WebMethods
+**/IntegrationServer/datastore/
+**/IntegrationServer/db/
+**/IntegrationServer/DocumentStore/
+**/IntegrationServer/lib/
+**/IntegrationServer/logs/
+**/IntegrationServer/replicate/
+**/IntegrationServer/sdk/
+**/IntegrationServer/support/
+**/IntegrationServer/update/
+**/IntegrationServer/userFtpRoot/
+**/IntegrationServer/web/
+**/IntegrationServer/WmRepository4/
+**/IntegrationServer/XAStore/
+**/IntegrationServer/packages/Wm*/
+
+# Linux
+*~
+
+# JetBrains
+cmake-build-*/
+out/
+
+# VirtualEnv
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+
+# SublimeText
+Package Control.cache/
+Package Control.ca-certs/
+
+# TextMate
+tmtags
+
+# Eclipse
+bin/
+tmp/
+
+# PSoCCreator
+Debug/
+Release/
+Export/
+*/codegentemp
+*/Generated_Source
+
+# Vim
+*~
+tags
+
+# NetBeans
+**/nbproject/private/
 build/
-doc/api/
+nbbuild/
+dist/
+nbdist/
 
-# Ruby
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/test/tmp/
-/test/version_tmp/
-/tmp/
+# MonoDevelop
+test-results/
+
+# Emacs
+*~
+\#*\#
+auto-save-list
+tramp
+*_archive
+/eshell/history
+/eshell/lastdir
+/elpa/
+/auto/
+dist/
+/server/
+
+# XilinxISE
+iseconfig/
+xlnx_auto_0_xdb/
+xst/
+_ngo/
+_xmsgs/
+
+# SynopsysVCS
+simv
+simv.daidir/
+simv.db.dir/
+simv.vdb/
+urgReport/
+DVEfiles/
+
+# Windows
+$RECYCLE.BIN/
+
+# FlexBuilder
+bin/
+bin-debug/
+bin-release/
+
+# Virtuoso
+lvsRunDir/*
+drcRunDir/*
+
+# MATLAB
+helpsearch*/
+slprj/
+sccprj/
+codegen/
+octave-workspace
+
+# Momentics
+x86/
+arm/
+arm-p/
+
+# Xcode
+xcuserdata/
 build/
-build-iPhoneOS/
-build-iPhoneSimulator/
-/_yardoc/
-/doc/
-/rdoc/
-/vendor/bundle
-/lib/bundler/man/
+DerivedData/
 
-# Textpattern
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
+# JDeveloper
+temp/
+classes/
+deploy/
+javadoc/
+
+# Dreamweaver
+_notes
+_compareTemp
+configs/
+
+# UnrealEngine
+Binaries/*
+Plugins/*/Binaries/*
+Build/*
+!Build/*/
+Build/*/**
+Saved/*
+Intermediate/*
+Plugins/*/Intermediate/*
+DerivedDataCache/*
 
 # Autotools
 /ar-lib
@@ -1480,67 +1566,34 @@ textpattern/
 /stamp-h1
 Makefile
 
-# Qooxdoo
-cache
-cache-downloads
-inspector
-api
+# C
+*.dSYM/
 
-# Maven
-target/
-
-# Waf
-waf-*-*/
-waf3-*-*/
+# Kotlin
+hs_err_pid*
 
 # Qt
 Makefile*
 *build-*
 
-# ForceDotCom
-Referenced Packages
-
-# SeamGen
-/bootstrap/data
-/bootstrap/tmp
-/classes/
-/dist/
-/exploded-archives/
-/test-build/
-/test-output/
-/test-report/
-/target/
-
-# RhodesRhomobile
-rholog-*
-sim-*
-bin/libs
-bin/RhoBundle
-bin/tmp
-bin/target
-
-# Xojo
-Builds*
-Debug*/Debug*\ Libs
-
-# Haskell
-dist
-dist-*
-cabal-dev
-
-# Elm
-elm-stuff
-repl-temp-*
-
-# AppceleratorTitanium
+# ROS
+devel/
+logs/
 build/
-
-# CraftCMS
-/craft/storage/*
-!/craft/storage/rebrand
-
-# Gradle
-**/build/
-
-# Elisp
+bin/
+lib/
+msg_gen/
+srv_gen/
+build_isolated/
+devel_isolated/
+/cfg/cpp/
+qtcreator-*
+/planning/cfg
+/planning/docs
 *~
+CATKIN_IGNORE
+
+# Opa
+_build
+_tracks
+opa-debug-js
