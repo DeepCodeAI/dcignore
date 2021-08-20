@@ -1,8 +1,7 @@
-const fs = require('fs');
-const path = require('path');
-const DefaultDCIgnore = fs.readFileSync(path.resolve(__dirname, 'full.dcignore'), 'utf8');
-const CustomDCIgnore = fs.readFileSync(path.resolve(__dirname, 'empty.dcignore'), 'utf8');
+const { file: DefaultDCIgnore } = require('./full.dcignore.js');
+const { file: CustomDCIgnore } = require('./empty.dcignore.js');
+
 module.exports = {
   DefaultDCIgnore,
-  CustomDCIgnore
+  CustomDCIgnore,
 };

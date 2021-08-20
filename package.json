@@ -4,7 +4,8 @@
   "description": "Default implementation of .dcignore file",
   "main": "index.js",
   "scripts": {
-    "generate": "bash generator/run.sh"
+    "generate": "bash generator/run.sh",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/DeepCodeAI/dcignore/issues"
   },
-  "homepage": "https://github.com/DeepCodeAI/dcignore#readme"
+  "homepage": "https://github.com/DeepCodeAI/dcignore#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
 }
