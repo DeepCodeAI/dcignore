@@ -1,4 +1,4 @@
 exports.file = `# Write glob rules for ignored files.
-# Check syntax on https://deepcode.freshdesk.com/support/solutions/articles/60000531055-how-can-i-ignore-files-or-directories-
+# For more information, see https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-ide-plugins-and-extensions/visual-studio-code-extension/create-a-.dcignore-file
 # Check examples on https://github.com/github/gitignore
 `;
